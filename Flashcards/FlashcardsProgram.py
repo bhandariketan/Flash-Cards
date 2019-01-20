@@ -1,7 +1,9 @@
 import json
+import time
 
 print()
 print("Hi, Welcome to Flash cards")
+time.sleep(1)
 
 
 a = {
@@ -23,12 +25,16 @@ while True:
         print("Press 1 - To print all the stored words with their meaning")
         print("Press 2 - To Search for the meaning of a word")
         print("Press 3 - To Exit")
+        time.sleep(2)
                 
         n = int(input("Put n = "))
+        
 
         print()
         if (n == 1):
                 print()
+                print("Loading............")
+                time.sleep(3)
                 
                 
                 print()
@@ -41,6 +47,8 @@ while True:
         elif (n == 2):
                 wordPicker = str(input("Enter a word: "))
                 print()
+                print("Loading")
+                time.sleep(3)
                 
                 
                 
@@ -51,6 +59,8 @@ while True:
                         if (o == 1):
                                 print()
                                 meaning2 = str(input("Enter the meaning of the word: "))
+                                print("Updating............")
+                                time.sleep(2)
                                 a[wordPicker] = meaning2
                                 
                                 
