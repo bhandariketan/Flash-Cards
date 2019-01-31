@@ -47,7 +47,7 @@ while True:
         elif (n == 2):
                 wordPicker = str(input("Enter a word: "))
                 print()
-                print("Loading")
+                print("Loading...........")
                 time.sleep(3)
                 
                 
@@ -59,7 +59,7 @@ while True:
                         if (o == 1):
                                 print()
                                 meaning2 = str(input("Enter the meaning of the word: "))
-                                print("Updating............")
+                                print("Updating.............")
                                 time.sleep(2)
                                 a[wordPicker] = meaning2
                                 
@@ -83,7 +83,8 @@ while True:
                                         print()
                                         meaning = input('Enter the words meaning: ')
                                         a[wordPicker] = meaning
-                                        
+                                        print("Updating...............")
+                                        time.sleep(2)
                                         print()
                                         print('Meaning of the word updated successfully!')
                                         continue
