@@ -31,7 +31,7 @@ while True:
 
             n = int(input("Put n = "))
         except ValueError:
-            print("Sorry, please choose one from the above options")
+            print("Sorry, please choose from the above options")
 
             continue
         else:
